@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sign Up - Spiral Sounds</title>
+
+  <!-- Fonts and CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plaster&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="signup.css" />
+</head>
+<body>
+  <div class="top-banner">
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="header-menu" aria-label="Main menu">
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="#">Cart</a>
+    </nav>
+  </div>
+
+  <header>
+    <img src="/images/spiral_logo.png" alt="Spiral Sounds Logo" />
+    <div class="header-text">
+      <h1>Spiral Sounds</h1>
+      <p class="subhead">The best in vinyl</p>
+    </div>
+  </header>
+
+  <main class="signup-container">
+    <h2>Create Your Account</h2>
+    <form class="signup-form" novalidate>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="••••••••" required minlength="6" />
+
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password" id="confirm-password" name="confirmPassword" placeholder="••••••••" required minlength="6" />
+
+      <button type="submit">Sign Up</button>
+      <p class="form-footer">
+        Already have an account? <a href="login.html">Log in</a>
+      </p>
+    </form>
+  </main>
+
+  <footer>
+    <p>© Spiral Sounds</p>
+  </footer>
+  <script type="module" src="signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Spiral Sounds</title>
+
+  <!-- Fonts and login-specific CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plaster&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="login.css" />
+</head>
+
+<body>
+  <div class="top-banner">
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="header-menu" aria-label="Main menu">
+      <a href="index.html">Home</a>
+      <a href="#">Cart</a>
+    </nav>
+  </div>
+
+  <header>
+    <img src="/images/spiral_logo.png" alt="Spiral Sounds Logo" />
+    <div class="header-text">
+      <h1>Spiral Sounds</h1>
+      <p class="subhead">The best in vinyl</p>
+    </div>
+  </header>
+
+  <main class="login-container">
+    <h2>Login to Your Account</h2>
+    <form class="login-form" method="POST" action="/login">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="••••••••" required />
+
+      <button type="submit">Login</button>
+      <p class="form-footer">
+        Don't have an account? <a href="signup.html">Sign up</a>
+      </p>
+    </form>
+  </main>
+
+  <footer>
+    <p>© Spiral Sounds</p>
+  </footer>
+  <script type="module" src="login.js"></script>
+</body>
+
+</html>

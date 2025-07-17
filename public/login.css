@@ -1,0 +1,124 @@
+/* Reset & Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f7;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Top banner and nav (reuse from index.css if similar) */
+.top-banner {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 600;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #fff;
+}
+
+header img {
+  max-width: 120px;
+  margin-bottom: 1rem;
+}
+
+.header-text h1 {
+  font-family: 'Plaster', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.subhead {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Login Container */
+.login-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.login-form input {
+  margin-bottom: 1.2rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-form button {
+  padding: 0.75rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login-form button:hover {
+  background-color: #333;
+}
+
+.form-footer {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.form-footer a {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #888;
+}
